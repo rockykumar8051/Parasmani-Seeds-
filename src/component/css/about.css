@@ -1,0 +1,18 @@
+div .about-content {
+  padding: 0 150px;
+}
+div .about-content p {
+  text-align: center;
+  letter-spacing: 0.8px;
+  line-height: 2.3;
+}
+@media screen and (max-width: 768px) {
+  div .about-content {
+    padding: 0 30px;
+  }
+  div .about-content p {
+    text-align: center;
+    letter-spacing: normal;
+    line-height: 1.5;
+  }
+}

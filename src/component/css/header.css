@@ -1,0 +1,32 @@
+:root {
+  --main-color: #77b81e;
+  --white: #ffffff;
+
+  --heading-title: 45px;
+  --heading-title-mob: 25px;
+}
+.navbar {
+  background-color: var(--main-color);
+}
+nav .logo {
+  width: 200px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: larger;
+}
+
+@media (max-width: 768px) {
+  nav .logo {
+    width: 165px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: medium;
+  }
+
+  footer .container .row .logo img {
+    width: 200px;
+    height: 90px;
+  }
+}

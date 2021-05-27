@@ -1,0 +1,66 @@
+:root {
+  --main-color: #77b81e;
+  --white: #ffffff;
+
+  --heading-title: 45px;
+  --heading-title-mob: 25px;
+}
+
+.logo-slider .item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.logo-slider .item button {
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+.logo-slider .item img {
+  height: 150px;
+  border-radius: 10px;
+}
+.logo-slider p {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--main-color);
+}
+.sliick-dots li button:before {
+  font-size: 12px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #77b81e;
+  font-size: 30px;
+}
+
+.item:hover {
+  display: block;
+  transition: all ease 0.3s;
+  transform: scale(1) translateY(5px);
+}
+
+@media screen and (max-width: 768px) {
+  .slick-next,
+  .slick-prev {
+    width: 50px;
+    margin-right: 15px;
+  }
+  .logo-slider p {
+    font-size: 10px;
+  }
+  .logo-slider .item {
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  .logo-slider .item img {
+    height: 100px;
+    border-radius: 10px;
+  }
+}

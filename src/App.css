@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+
+:root {
+  --main-color: #77b81e;
+  --white: #ffffff;
+
+  --heading-title: 45px;
+  --heading-title-mob: 25px;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+body.hidden-scrolling {
+  overflow-y: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+section .heading-title {
+  font-weight: 400;
+  font-size: var(--heading-title);
+}
+
+.main-heading {
+  margin-top: 30px;
+}
+.main-heading .container .row h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+span {
+  color: var(--main-color);
+}
+.main-heading .container .row h1 span {
+  color: var(--main-color);
+}
+
+.main-heading .container .row p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.main-heading .container button {
+  border: 1px solid var(--main-color);
+  color: black;
+}
+
+.main-heading .container button:hover {
+  background-color: var(--main-color);
+}
+
+/* products */
+
+.container .card .blog-img {
+  height: 300px;
+}
+
+/* counter-area */
+.counter-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 80px 0;
+  background: var(--main-color);
+  flex-wrap: wrap;
+}
+.content {
+  padding: 10px;
+}
+.counter {
+  font-size: 42px;
+  margin: 5px 0;
+}
+h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .counter-container {
+    padding: 30px 0;
+    flex-direction: column;
+  }
+
+  .slick-next,
+  .slick-prev {
+    width: 50px;
+    margin-right: 15px;
+  }
+  .logo-slider p {
+    font-size: 10px;
+  }
+  .logo-slider .item {
+    background-color: #fff;
+    box-shadow: 0 4px 5px #cacaca;
+    border-radius: 8px;
+  }
+  .logo-slider .item a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+  }
+}
+
+/* form section */
+
+.form .card img {
+  width: auto;
+  height: 80vh;
+}
+.card h1 {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+@media screen and (max-width: 768px) {
+  .card img {
+    width: auto;
+    height: 80vh;
+  }
+  .card h1 {
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+}
+/* form section end */
+
+.textomonial {
+  overflow: hidden;
+  background-color: var(--main-color);
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  width: 280px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.textomonial-img {
+  width: 8rem;
+  clip-path: circle(60px at center);
+  margin-top: 1.5rem;
+}
+
+footer {
+  background-size: cover;
+  background-repeat: repeat;
+  background-image: url(https://orga.wpengine.com/wp-content/uploads/2017/06/footer-bg.jpg);
+  background-attachment: scroll;
+  color: white;
+}
+.container-fluid {
+  background-color: rgba(31, 43, 59, 0.92);
+}
+
+/*produts page */
+
+.topimg img {
+  margin: 50px 0px;
+}
+
+/* conatct page */
+.form-section {
+  margin: 150px;
+}
+
+@media (max-width: 768px) {
+  .carousel .carousel-inner .carousel-item img {
+    height: 50vh;
+  }
+
+  .main-heading .container .row h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  section .heading-title {
+    font-size: var(--heading-title-mob);
+  }
+  .service img {
+    width: 100px;
+    height: 100px;
+  }
+  .card-container {
+    width: 280px;
+    margin-left: 0;
+  }
+  .container .row .card p {
+    font-size: 16px;
+  }
+
+  .topimg img {
+    margin-top: 40px;
+  }
+  .form-section {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 992px) {
+  .main-heading .container .row h1 {
+    font-size: 35px;
+  }
+  .service .ourserviecs-img {
+    padding: 0;
+  }
+  .card-container {
+    width: 280px;
+    /* margin-right: 15px; */
+  }
+
+  .container .row .card .blog-img {
+    width: 100%;
+    height: 280px;
+  }
+
+  .form-section {
+    margin: 100px 80px;
+  }
+}
+
+/*
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+ X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
