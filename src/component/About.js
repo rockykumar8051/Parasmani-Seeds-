@@ -107,7 +107,7 @@ function About() {
             />
 
             <h4>
-              <span>Shri Paras Nath</span>
+              <span>Shri Paras Nath Kushwaha </span>
             </h4>
             <h6>Founder : Parasmani Seeds Pvt Ltd</h6>
           </div>
@@ -137,7 +137,7 @@ function About() {
           </h2>
         </div>
         <div className="d-flex justify-content-center align-item-center">
-          <div className="col-md-4 col-xxl-4  col-lg-4 col-12">
+          <div className="col-md-4 col-xxl-4 p-1  col-lg-4 col-12">
             <div className="card border-light my-2">
               <div className="card-body shadow">
                 <h4 className="card-title text-center">Address</h4>
@@ -148,7 +148,7 @@ function About() {
                 </p>
                 <p className="card-text">
                   <a
-                    href="mailto:someone@example.com"
+                    href="mailto:info@parasmaniseeds.com"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     {" "}
@@ -158,11 +158,11 @@ function About() {
                 </p>
                 <p className="card-text">
                   <a
-                    href="tel: +91 94152881"
+                    href="tel: +91 9415288134"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     {" "}
-                    <i className="fa fa-phone mr-3"></i> +91 94152881
+                    <i className="fa fa-phone mr-3"></i> +91 9415288134
                   </a>
                 </p>
 

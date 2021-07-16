@@ -66,7 +66,7 @@ export default function footer() {
                   <li>
                     <p>
                       <a
-                        href="mailto:someone@example.com"
+                        href="mailto:info@parasmaniseeds.com"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         {" "}
@@ -78,11 +78,11 @@ export default function footer() {
                   <li>
                     <p>
                       <a
-                        href="tel: +91 94152881"
+                        href="tel: +91 9415288134"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         {" "}
-                        <i className="fa fa-phone mr-3"></i> +91 94152881
+                        <i className="fa fa-phone mr-3"></i> +91 9415288134
                       </a>
                     </p>
                   </li>

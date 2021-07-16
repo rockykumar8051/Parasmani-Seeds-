@@ -89,7 +89,7 @@ export default function Products() {
                 <>
                   <div className="item" key={id}>
                     <button onClick={() => filterItem(name)}>
-                      <img key={id} src={image} loading="lazy" alt={name} />
+                      <img key={id} src={image} alt={name} />
                       <p>{name}</p>
                     </button>
                   </div>
@@ -114,7 +114,7 @@ export default function Products() {
               return (
                 <>
                   <div className="col-md-4 col-10 col-xxl-4 col-lg-4 mx-auto">
-                    <div className="card mb-3 shadow-sm p-2" key={id}>
+                    <div className="card mb-3 shadow border-light p-2" key={id}>
                       <img
                         key={id}
                         src={image}

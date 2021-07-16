@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function header() {
   return (
     <div>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-light header  ">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-light header shadow-lg  ">
         <div className="container">
           <Link to="/" className="navbar-brand logo">
             <img src="img/logo.png" alt="logo" />

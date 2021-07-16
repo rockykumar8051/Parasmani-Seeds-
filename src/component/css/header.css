@@ -6,14 +6,14 @@
   --heading-title-mob: 25px;
 }
 .navbar {
-  background-color: var(--main-color);
+  background-color: var(--white);
 }
 nav .logo {
   width: 200px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: black;
   font-size: larger;
 }
 
