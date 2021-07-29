@@ -281,8 +281,8 @@ const Product = [
   },
   {
     id: 36,
-    image: "img/products/product/Pea(GS-10).png",
-    name: "GOLD-10",
+    image: "img/products/product/ps-10.png",
+    name: "PS-10",
     category: "Peas",
     description:
       "Imported Excellent variety ,Dark Green colour seeds .Long straight pods,Very tender, Sweet and tasty 9-11 seeds/pod.1st harvest 75-80 days .Good for long distance transportation Tolerant To Disease.High Yielding.",

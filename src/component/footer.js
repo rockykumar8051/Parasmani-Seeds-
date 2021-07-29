@@ -125,7 +125,7 @@ export default function footer() {
           style={{ textDecoration: "none", color: "white" }}
         >
           {" "}
-          Rocky kumar
+          Parasmani Seeds Pvt Ltd
         </a>
       </div>
     </div>
