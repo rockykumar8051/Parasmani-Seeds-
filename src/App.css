@@ -29,6 +29,9 @@ section .heading-title {
   font-weight: 400;
   font-size: var(--heading-title);
 }
+.carousel .carousel-inner .carousel-item img {
+  height: 70vh;
+}
 
 .main-heading {
   margin-top: 30px;

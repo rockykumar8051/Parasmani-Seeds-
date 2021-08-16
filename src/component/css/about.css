@@ -6,6 +6,10 @@ div .about-content p {
   letter-spacing: 0.8px;
   line-height: 2.3;
 }
+
+div.topimg img{
+  height: 50vh;
+}
 @media screen and (max-width: 768px) {
   div .about-content {
     padding: 0 30px;

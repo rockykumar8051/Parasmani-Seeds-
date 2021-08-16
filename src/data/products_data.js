@@ -1,4 +1,76 @@
 const Product = [
+  
+
+  {
+    id: 38,
+    image: "img/products/products2.png",
+    name: "Super Bharath",
+    category: "Rice",
+    description:
+      "Duration in Days:125-130, Grain Quality:Excellent, 1000  seed Wt in Grams:12.7, Yield /ac:22-25 Qntl, Grains per panicle:500,  Other Characters:BLB,Blast,BPH,Tolerant",
+  },
+  {
+    id: 39,
+    image: "img/products/products3.png",
+    name: "Super Ahaan",
+    category: "Rice",
+    description:
+      "Duration in Days:135-140, Grain Quality:Excellent, 1000  seed Wt in Grams:17.8, Yield /ac:32-34 Qntl, Grains per panicle:600,  Other Characters:BLB,Blast,Tolerant",
+  },
+  {
+    id: 40,
+    image: "img/products/products4.png",
+    name: "Super Aman",
+    category: "Rice",
+    description:
+      "Duration in Days:130-135, Grain Quality:Excellent, 1000  seed Wt in Grams:17.5, Yield /ac:28-30 Qntl, Grains per panicle:450-500,  Other Characters:BLB,Blast,BPH,Drought Tolerant",
+  },
+  {
+    id: 41,
+    image: "img/products/products5.png",
+    name: "Super Sonika",
+    category: "Rice",
+    description:
+      "Duration in Days:115-120, Grain Quality:Very Good, 1000  seed Wt in Grams:20.0, Yield /ac:25-27 Qntl, Grains per panicle:325-350,  Other Characters:BLB,Blast,BPH,Tolerant",
+  },
+  {
+    id: 42,
+    image: "img/products/products1.png",
+    name: "Super Sarayu",
+    category: "Rice",
+    description:
+      "Duration in Days:125-130, Grain Quality:Very Good, 1000  seed Wt in Grams:28.6, Yield /ac:34-36 Qntl, Grains per panicle:300-350,  Other Characters:BLB,BPH,Tolerant",
+  },
+  {
+    id: 37,
+    image: "img/products/product/Mustard(PM-19).png",
+    name: "PM-19",
+    category: "Mustard",
+    description: " ",
+  },
+  
+  {
+    id: 43,
+    image: "img/products/product/Mustard(PM-21).png",
+    name: "PM-21",
+    category: "Mustard",
+    description: " ",
+  },
+  {
+    id: 44,
+    image: "img/products/product/Mustard(PM-22).png",
+    name: "PM-22",
+    category: "Mustard",
+    description: " ",
+  },
+  {
+    id: 45,
+    image: "img/products/product/Mustard(PM-44).png",
+    name: "PM-44",
+    category: "Mustard",
+    description: " ",
+  },
+
   {
     id: 1,
     image: "img/products/dumee.png",
@@ -39,6 +111,7 @@ const Product = [
     description:
       "Ploe type Yard Long Bean variety , 6-7 feet plant height. Green colour pods, Pods length: 50-55 cm . Very tasty & tender. 1st Harvest : 50-55 days, Tolerant to Diseases, High yielding, Suitable for Rainy & Mild Winter.",
   },
+  
   {
     id: 6,
     image: "img/products/dumee.png",
@@ -287,74 +360,7 @@ const Product = [
     description:
       "Imported Excellent variety ,Dark Green colour seeds .Long straight pods,Very tender, Sweet and tasty 9-11 seeds/pod.1st harvest 75-80 days .Good for long distance transportation Tolerant To Disease.High Yielding.",
   },
-  {
-    id: 37,
-    image: "img/products/product/Mustard(PM-19).png",
-    name: "PM-19",
-    category: "Mustard",
-    description: " ",
-  },
-  {
-    id: 38,
-    image: "img/products/products2.png",
-    name: "Super Bharath",
-    category: "Rice",
-    description:
-      "Duration in Days:125-130, Grain Quality:Excellent, 1000  seed Wt in Grams:12.7, Yield /ac:22-25 Qntl, Grains per panicle:500,  Other Characters:BLB,Blast,BPH,Tolerant",
-  },
-  {
-    id: 39,
-    image: "img/products/products3.png",
-    name: "Super Ahaan",
-    category: "Rice",
-    description:
-      "Duration in Days:135-140, Grain Quality:Excellent, 1000  seed Wt in Grams:17.8, Yield /ac:32-34 Qntl, Grains per panicle:600,  Other Characters:BLB,Blast,Tolerant",
-  },
-  {
-    id: 40,
-    image: "img/products/products4.png",
-    name: "Super Aman",
-    category: "Rice",
-    description:
-      "Duration in Days:130-135, Grain Quality:Excellent, 1000  seed Wt in Grams:17.5, Yield /ac:28-30 Qntl, Grains per panicle:450-500,  Other Characters:BLB,Blast,BPH,Drought Tolerant",
-  },
-  {
-    id: 41,
-    image: "img/products/products5.png",
-    name: "Super Sonika",
-    category: "Rice",
-    description:
-      "Duration in Days:115-120, Grain Quality:Very Good, 1000  seed Wt in Grams:20.0, Yield /ac:25-27 Qntl, Grains per panicle:325-350,  Other Characters:BLB,Blast,BPH,Tolerant",
-  },
-  {
-    id: 42,
-    image: "img/products/products1.png",
-    name: "Super Sarayu",
-    category: "Rice",
-    description:
-      "Duration in Days:125-130, Grain Quality:Very Good, 1000  seed Wt in Grams:28.6, Yield /ac:34-36 Qntl, Grains per panicle:300-350,  Other Characters:BLB,BPH,Tolerant",
-  },
-  {
-    id: 43,
-    image: "img/products/product/Mustard(PM-21).png",
-    name: "PM-21",
-    category: "Mustard",
-    description: " ",
-  },
-  {
-    id: 44,
-    image: "img/products/product/Mustard(PM-22).png",
-    name: "PM-22",
-    category: "Mustard",
-    description: " ",
-  },
-  {
-    id: 45,
-    image: "img/products/product/Mustard(PM-44).png",
-    name: "PM-44",
-    category: "Mustard",
-    description: " ",
-  },
+  
 ];
 
 export default Product;

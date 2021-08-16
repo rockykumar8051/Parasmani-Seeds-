@@ -8,7 +8,7 @@ function About() {
         className="container-fluid  mt-4 topimg"
         style={{ backgroundColor: "white", padding: "0" }}
       >
-        <img src="img/about.png" className="img-fluid" loading="lazy" alt="" />
+        <img src="img/home2.png" className="img-fluid" loading="lazy" alt="" />
       </div>
 
       <h1 className="d-flex justify-content-center align-item-center">
