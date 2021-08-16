@@ -48,7 +48,7 @@ export default function Home() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="img/home3.png"
+                src="img/home2.png"
                 loading="lazy"
                 className="d-block w-100"
                 alt="..."
@@ -63,7 +63,7 @@ export default function Home() {
 
             <div className="carousel-item">
               <img
-                src="img/home2.png"
+                src="img/home3.png"
                 loading="lazy"
                 className="d-block w-100"
                 alt="prod"
